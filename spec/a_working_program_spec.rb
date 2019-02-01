@@ -1,8 +1,8 @@
 describe 'A working program' do
 
-  it 'not to raise an error when loaded' do
+  it 'raises an error when loaded' do
     expect{
-      load 'lib/a_working_program.rb'
+      load 'lib/a_broken_program.rb'
     }.to_not raise_error
   end
 
